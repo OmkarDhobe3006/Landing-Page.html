@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #ea2027;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: beige;
+  }
+  ul li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    color: yellow;
+  }
+  a:hover {
+    color: var(--secondary-color);
+  }
+  .book {
+    color: yellow;
+  }
+  .press {
+    color: var(--secondary-color);
+  }
+  nav {
+    background: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+  }
+  .logo {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-item {
+    margin-left: 2rem;
+  }
+  .nav-link {
+    font-weight: var(--bold-font);
+  }
+  .new{
+    padding: 0 20rem;
+  }
+  div h2{
+    text-align: center;
+    justify-items: center;
+    margin-top: 2rem;
+    font-size: xx-large;
+    color: yellow;
+    background-color: black;
+    width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid red;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.9rem;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+  }
+  .intro-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    line-height: var(--line-height);
+  }
+  .king {
+    color: black;
+  }
+  .chhatrapati {
+    color:darkgoldenrod;
+  }
+  .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .red {
+    background-color: var(--secondary-color);
+    margin-right: 1.5rem;
+  }
+  .red:hover {
+    background-color: #f1262d;
+    color: #fff;
+  }
+  .blue {
+    background-color: var(--primary-color);
+  }
+  .blue:hover {
+    background-color: #095cf7;
+    color: #fff;
+  }
+  .about {
+    position: relative;
+    background-image: url("book.jpg");
+    background-size: 100% 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 10rem 0;
+  }
+  .about h3 {
+    font-size: 3em;
+    margin-bottom: -20px;
+    text-shadow: 2px 2px 2px #333;
+    color: darkgoldenrod;
+  }
+  .about p {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #333;
+    font-size: 1.8rem;
+    width: 50%;
+  }
+  .name{
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 1px 1px 1px #333;
+    color: darkgoldenrod;
+    margin-top: -8rem;
+    padding: 0;
+  }
+  .illustrated{
+    text-align: right;
+    width: 50%;
+    margin-left: 12.5rem;
+    font-size: x-large;
+  }
+  .img{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 17rem;
+  }
+  .butn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #fff;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .buttons{
+    text-align: center;
+  }
+  .social {
+    text-align: center;
+    margin: 2rem;
+    background: red;
+  }
+  .socicons {
+    font-size: 1.3rem;
+  }
+  footer {
+    border-top: 1px solid #f1f1f1;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+  }
+  .scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  .up-arrow {
+    width: 3rem;
+    height: 3rem;
+  }
